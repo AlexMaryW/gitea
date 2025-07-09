@@ -51,6 +51,7 @@ type Repository struct {
 	ID int64 `json:"id"`
 	// username of the user or organization owning the repository
 	Owner       *User  `json:"owner"`
+	// name of the repo
 	Name        string `json:"name"`
 	FullName    string `json:"full_name"`
 	Description string `json:"description"`

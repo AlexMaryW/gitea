@@ -27,6 +27,7 @@ func CreateRepo(ctx *context.APIContext) {
 	//   required: true
 	// - name: repository
 	//   in: body
+	//   description: name of the repo
 	//   required: true
 	//   schema: { "$ref": "#/definitions/CreateRepoOption" }
 	// responses:

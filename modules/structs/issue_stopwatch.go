@@ -17,6 +17,7 @@ type StopWatch struct {
 	IssueTitle string    `json:"issue_title"`
 	// username of the user or organization owning the repository
 	RepoOwnerName string `json:"repo_owner_name"`
+	// name of the repo
 	RepoName string `json:"repo_name"`
 }
 
