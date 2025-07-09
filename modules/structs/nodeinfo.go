@@ -16,8 +16,9 @@ type NodeInfo struct {
 
 // NodeInfoSoftware contains Metadata about server software in use
 type NodeInfoSoftware struct {
-	Name       string `json:"name"`
-	Version    string `json:"version"`
+	Name    string `json:"name"`
+	Version string `json:"version"`
+	// name of the repo
 	Repository string `json:"repository"`
 	Homepage   string `json:"homepage"`
 }

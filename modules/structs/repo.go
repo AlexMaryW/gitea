@@ -48,8 +48,9 @@ type ExternalWiki struct {
 
 // Repository represents a repository
 type Repository struct {
-	ID            int64       `json:"id"`
-	Owner         *User       `json:"owner"`
+	ID    int64 `json:"id"`
+	Owner *User `json:"owner"`
+	// name of the repo
 	Name          string      `json:"name"`
 	FullName      string      `json:"full_name"`
 	Description   string      `json:"description"`

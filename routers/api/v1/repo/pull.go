@@ -57,7 +57,7 @@ func ListPullRequests(ctx *context.APIContext) {
 	//   required: true
 	// - name: repo
 	//   in: path
-	//   description: Name of the repo
+	//   description: name of the repo
 	//   type: string
 	//   required: true
 	// - name: base_branch

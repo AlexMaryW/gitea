@@ -16,7 +16,8 @@ type StopWatch struct {
 	IssueIndex    int64     `json:"issue_index"`
 	IssueTitle    string    `json:"issue_title"`
 	RepoOwnerName string    `json:"repo_owner_name"`
-	RepoName      string    `json:"repo_name"`
+	// name of the repo
+	RepoName string `json:"repo_name"`
 }
 
 // StopWatches represent a list of stopwatches
